@@ -1,0 +1,12 @@
+#homepage {
+    font-family: 'Exo 2', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#homepage .parallax {
+    background-image: url('../../assets/img/architecture.jpg');
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,27 @@
+#underconstruction {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#underconstruction .view {
+    /* background-image: url('https://mdbootstrap.com/img/Photos/Others/images/89.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 95vh;
+}
+
+#underconstruction h6 {
+    line-height: 1.7;
+}
+
+#underconstruction .myColor {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #f05f40 !important;
+}
+
+#underconstruction .myColor:hover {
+    color: #fff;
+    background-color: #ee4b28 !important;
+}

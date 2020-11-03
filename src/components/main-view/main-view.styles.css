@@ -1,0 +1,48 @@
+#mainview .gradient {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+#mainview .view {
+    background-image: url('../../assets/img/header3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+#mainview h1 {
+    font-family: 'Exo 2', sans-serif;
+
+    font-weight: 500;
+}
+
+#mainview hr {
+    max-width: 80px;
+    border-width: 3px;
+    border-color: #f05f40;
+}
+
+@media only screen and (max-width: 400px) {
+    #mainview .animated img {
+        max-height: 50vh;
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #mainview .animated img {
+        max-height: 35vh;
+    }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+    #mainview .animated img {
+        max-height: 50vh;
+        position: relative;
+    }
+}
+@media (max-width: 1000px) and (orientation: landscape) {
+    #mainview .view {
+        min-height: 150vh;
+    }
+}

@@ -1,0 +1,49 @@
+/* Nav bar */
+#mainNav {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#mainNav .navbar-brand > a.nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f05f40;
+}
+
+#mainNav .navbar-brand > a.nav-link:hover {
+    color: #ee4b28;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: #f05f40;
+}
+
+/* #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+    background-color: transparent;
+} */
+
+#mainNav .navbar-nav > a.btn-default {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #f05f40 !important;
+}
+
+#mainNav .navbar-nav > a.btn-default:hover {
+    color: #fff;
+    background-color: #ee4b28 !important;
+}
